@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Altair</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ 
+  <header class="navbar">
+    <div class="logo">Altair</div>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#tours">TOURS</a></li>
+        <li><a href="#pages">PAGES</a></li>
+        <li><a href="#BLOG">BLOG</a></li>
+        <li><a href="#shortcodess">SHORTCODESS</a></li>
+        <li><a href="#shop">SHOP</a></li>
+      </ul>
+    </nav>
+    <div class="phone">📞 1-800-2345-5678</div>
+  </header>
+
+  <div class="carousel">
+    <div class="slides">
+      <img src="Veneza.jpeg" height="1500px" width="1500px" alt="veneza">
+        <div class="slide-content">
+          <h4>ITÁLIA</h4>
+          <h1>VENEZA</h1>
+          <p>Arctic temperatures and several meters of snow are no match for the natural impressions and cultural touch that will warm your soul as you dog sled in Greenland.</p>
+        </div>
+      </div>
+      <!-- Adicione mais slides aqui -->
+    </div>
+
+    <div class="carousel-dots">
+      <span class="dot active" onclick="showSlide(0)"></span>
+      <!-- Adicione mais pontos conforme o número de slides -->
+    </div>
+  </div>
+  <section class="ofertas-section">
+  <div class="ofertas-header">
+    <h2>BEST OFFERS</h2>
+    <p>CHECK OUT OUR BEST PROMOTIONAL TOURS</p>
+  </div>
+
+  <div class="carousel-container">
+    <button class="carousel-btn left" onclick="scrollLeft()">Click here‹</button>
+    
+    <div class="carousel" id="carousel">
+      <!-- Card 1 -->
+      <img src="Peru.jpg" height="20px" width="10px" alt="Peru">
+        <div class="card-info">
+          <small>PERU</small>
+          <h3>Big Peru</h3>
+          <div class="bottom-info">
+            <span>8 DAYS</span>
+            <strong>$ 2000</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <img src="Espanha.jpg" height="20px" width="10px" alt="espanha">
+        <div class="card-info">
+          <small>ESPANHA</small>
+          <h3>Greater Spain Madrid</h3>
+          <div class="bottom-info">
+            <span>9 DAYS</span>
+            <strong>$ 3000</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <img src="Autralia.jpg" height="20px" width="10px" alt="autralia">
+        <div class="card-info">
+          <small>ÁUSTRIA, SUÍÇA</small>
+          <h3>Trip to the Swiss Alps</h3>
+          <div class="bottom-info">
+            <span>13 DAYS</span>
+            <strong>$ 4000</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+     <img src="Italia.jpg" height="20px" width="10px" alt="italia">
+        <div class="card-info">
+          <small>ITÁLIA</small>
+          <h3>Big Itália</h3>
+          <div class="bottom-info">
+            <span>8 DAYS</span>
+            <strong>$ 3000</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 com destaque -->
+      <img src="frança-lago.jpg" height="20px" width="10px" alt="frança-lago">
+        <div class="card-promo">BEST OFFER<br>25% DISCOUNT</div>
+        <div class="card-info">
+          <small>FRANÇA</small>
+          <h3>Annecy Enchanted Lake</h3>
+          <div class="bottom-info">
+            <span>10 DAYS</span>
+            <strong>U$ 3500</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-btn right" onclick="scrollRight()">›</button>
+  </div>
+</section> <!-- Imagem de Capa -->
+  <section class="hero-image">
+    <!-- imagem aplicada via CSS -->
+  </section>
+
+  <!-- Conteúdo -->
+  <section class="content-section">
+    <h2>LAKE GENEBRA SUÍÇA</h2>
+    
+    <div class="content-columns">
+      <div class="text-left">
+        <p>
+          Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        <p>
+          Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+        </p>
+      </div>
+
+      <div class="quote-right">
+        <em>
+         It was fantastic to ride the sled and enjoy the mountain views! And the action it provided—I loved going fast!
+        </em>
+      </div>
+    </div>
+  </section>
+  <section class="news-section">
+    <div class="news-header">
+      <h2>NEWS AND UPDATES</h2>
+      <p>OUR LATEST NEWS AND PROMOTIONS</p>
+    </div>
+
+
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-col">
+      <div class="footer-logo">Altair</div>
+      <p class="footer-text">A powerful and beautiful multipurpose WordPress theme with tons of advanced features.</p>
+    </div>
+
+    <div class="footer-col footer-contact">
+      <h4>CONTACT INFORMATION</h4>
+      <p><i class="fas fa-map-marker-alt"></i>732/21 Second Street, Manchester, King Street, Kingston, Reino Unido</p>
+      <p><i class="fas fa-phone"></i>345-677-554</p>
+      <p><i class="fas fa-phone"></i>323-678-567</p>
+      <p><i class="fas fa-envelope"></i>info@altairtheme.com</p>
+      <p><i class="fas fa-globe"></i>themegoods.com</p>
+    </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
